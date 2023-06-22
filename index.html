@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lojinha de Tricot</title>
+
+        <!-- Css bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+
+        <!-- Css local -->
+        <link rel="stylesheet" href="./style/style.css" />
+        <!-- JavaScript bootstrap -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <div class="container logo-header">
+                <!-- Logo vetorizado pré formado -->
+                <img src="./img/logo-lojinha.svg" alt="" />
+            </div>
+        </header>
+        <main id="principal">
+            <!-- container definindo o maximo de tamanho 1140px -->
+            <div class="container">
+                <h1>Bem vindo a loja de tricot da Maria</h1>
+                <p>
+                    Aqui na minha loja você encontra roupas e acessórios de qualidade e 100%
+                    feitas a mão
+                </p>
+                <section class="lista-produtos">
+                    <h2>Lista de produtos</h2>
+                    <!-- Criação de cards responsivos com Grid -->
+                    <ul class="row">
+                        <!-- Grid com 4 colunas -->
+                        <li class="col-lg-4 col-sm-12">
+                            <div class="alinhar-card">
+                                <img
+                                    src="./img/blusa-de-la.jpg"
+                                    alt="Blusa de lã verde"
+                                    height="350px"
+                                    width="250px"
+                                />
+                                <h3>Blusa de lã</h3>
+                                <p>R$89,90</p>
+                                <a href="#">Saiba mais sobre!</a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-sm-12">
+                            <div class="alinhar-card">
+                                <img
+                                    src="./img/mochila-de-la-02.jpeg"
+                                    alt="Mochila de tricot"
+                                    height="350px"
+                                    width="250px"
+                                />
+                                <h3>Mochila de lã</h3>
+                                <p>R$139,90</p>
+                                <a href="#"> Saiba mais sobre!</a>
+                            </div >
+                        </li>
+                        <li class="col-lg-4 col-sm-12">
+                            <div class="alinhar-card">
+                                <img
+                                    src="./img/luva-de-la.jpeg"
+                                    alt="Luva feita a mão"
+                                    height="350px"
+                                    width="250px"
+                                />
+                                <h3>Luva feita a mão</h3>
+                                <p>R$25,90</p>
+                                <a href="#"> Saiba mais sobre!</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section id="quem-somos">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-12 ">
+                                <img src="./img/quem-somos.png" height="100%" width="100%" alt="">
+                            </div>
+                            <div class="col-lg-7">
+                                <h3>Quem é Maria?</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo facere sint dolores voluptatum nulla numquam harum repellat officiis, pariatur repellendus.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, autem?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta accusantium quos vitae veritatis illo quisquam fugit error eos? Dolores animi assumenda nam at blanditiis impedit fuga sapiente eos? At?</p>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </main>
+        <footer id="rodape">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <h3>Texto</h3>
+                    <p>dfsSFsdfFF</p>
+                    <p>fsgasggrgragfg</p>
+                    <p>gardggagrgaregaregar</p>
+                  </div>
+                  <div class="col">
+                    <h3>afjak9regtqerm9pmiretgq</h3>
+                    <p><a href="">dfigjiog</a></p>
+                    <p><a href="">fgiojagoie</a></p>
+                    <p><a href="">paerogkgiopajge</a></p>
+                  </div>
+                  <div class="col">
+                    <h3>Newslatter</h3>
+                    <form action="#">
+                        <input type="email"><button>submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </footer>
+    </body>
+</html>
